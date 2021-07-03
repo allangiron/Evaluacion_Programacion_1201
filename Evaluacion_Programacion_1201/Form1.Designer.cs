@@ -44,6 +44,7 @@ namespace Evaluacion_Programacion_1201
             this.Btn_obtenerPromedio = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.Btn_salir = new System.Windows.Forms.Button();
+            this.btn_limpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -151,7 +152,7 @@ namespace Evaluacion_Programacion_1201
             // Btn_obtenerPromedio
             // 
             this.Btn_obtenerPromedio.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_obtenerPromedio.Location = new System.Drawing.Point(106, 347);
+            this.Btn_obtenerPromedio.Location = new System.Drawing.Point(65, 347);
             this.Btn_obtenerPromedio.Name = "Btn_obtenerPromedio";
             this.Btn_obtenerPromedio.Size = new System.Drawing.Size(120, 41);
             this.Btn_obtenerPromedio.TabIndex = 2;
@@ -172,7 +173,7 @@ namespace Evaluacion_Programacion_1201
             // Btn_salir
             // 
             this.Btn_salir.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_salir.Location = new System.Drawing.Point(275, 347);
+            this.Btn_salir.Location = new System.Drawing.Point(310, 347);
             this.Btn_salir.Name = "Btn_salir";
             this.Btn_salir.Size = new System.Drawing.Size(75, 41);
             this.Btn_salir.TabIndex = 4;
@@ -180,12 +181,24 @@ namespace Evaluacion_Programacion_1201
             this.Btn_salir.UseVisualStyleBackColor = true;
             this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
             // 
+            // btn_limpiar
+            // 
+            this.btn_limpiar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_limpiar.Location = new System.Drawing.Point(210, 347);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(75, 41);
+            this.btn_limpiar.TabIndex = 5;
+            this.btn_limpiar.Text = "Limpiar";
+            this.btn_limpiar.UseVisualStyleBackColor = true;
+            this.btn_limpiar.Click += new System.EventHandler(this.btn_limpiar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(458, 450);
+            this.Controls.Add(this.btn_limpiar);
             this.Controls.Add(this.Btn_salir);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Btn_obtenerPromedio);
@@ -226,6 +239,7 @@ namespace Evaluacion_Programacion_1201
         private System.Windows.Forms.Button Btn_obtenerPromedio;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button Btn_salir;
+        private System.Windows.Forms.Button btn_limpiar;
     }
 }
 

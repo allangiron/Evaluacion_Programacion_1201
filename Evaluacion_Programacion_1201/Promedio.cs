@@ -9,7 +9,7 @@ namespace Evaluacion_Programacion_1201
     class Promedio
     {
         private string nombre;
-        private int cuenta;
+        private long cuenta;
         private int nota1;
         private int nota2;
         private int nota3;
@@ -18,7 +18,7 @@ namespace Evaluacion_Programacion_1201
         private string iteracion;
 
         public String Nombre { get; set; }
-        public int Cuenta { get; set; }
+        public long Cuenta { get; set; }
         public int Nota1 { get; set; }
         public int Nota2 { get; set; }
         public int Nota3 { get; set; }
@@ -26,7 +26,7 @@ namespace Evaluacion_Programacion_1201
 
         public int Promedio1
         {
-            get { promedio = (nota1 + nota2 + nota3 + nota4) / 4;
+            get { promedio = (Nota1 + Nota2 + Nota3 + Nota4) / 4;
                   return promedio;
             }
             set { promedio = value; }
