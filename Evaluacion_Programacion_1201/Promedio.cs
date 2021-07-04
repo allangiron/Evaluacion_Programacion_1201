@@ -19,10 +19,28 @@ namespace Evaluacion_Programacion_1201
 
         public String Nombre { get; set; }
         public long Cuenta { get; set; }
-        public int Nota1 { get; set; }
-        public int Nota2 { get; set; }
-        public int Nota3 { get; set; }
-        public int Nota4 { get; set; }
+       
+        public int Nota1
+        {
+            get { return nota1; }
+            set { nota1 = value; }
+        }
+
+        public int Nota2
+        {
+            get { return nota2; }
+            set { nota2 = value; }
+        }
+        public int Nota3
+        {
+            get { return nota3; }
+            set { nota3 = value; }
+        }
+        public int Nota4
+        {
+            get { return nota4; }
+            set { nota4 = value; }
+        }
 
         public int Promedio1
         {

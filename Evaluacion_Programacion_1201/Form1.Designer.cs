@@ -197,7 +197,7 @@ namespace Evaluacion_Programacion_1201
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(458, 450);
+            this.ClientSize = new System.Drawing.Size(450, 450);
             this.Controls.Add(this.btn_limpiar);
             this.Controls.Add(this.Btn_salir);
             this.Controls.Add(this.label7);
